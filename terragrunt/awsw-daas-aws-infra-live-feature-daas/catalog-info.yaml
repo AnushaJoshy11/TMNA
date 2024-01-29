@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "awsw-daas-aws-infra-live"
+  description: "Workspace and Appstream codebase"
+  annotations:
+    github.com/project-slug: Toyota-Motor-North-America/awsw-daas-aws-infra-live
+    backstage.io/source-ref: github.com/Toyota-Motor-North-America/awsw-daas-aws-infra-live
+spec:
+  type: system
+  lifecycle: experimental
+  owner: "Toyota-Motor-North-America"
